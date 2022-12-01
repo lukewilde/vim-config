@@ -1,6 +1,6 @@
 set relativenumber
 set clipboard=unnamedplus
-set nohlsearch
+"set nohlsearch
 set scrolloff=8
 
 call plug#begin()
