@@ -94,5 +94,6 @@
   nnoremap <C-W>i <C-W>l|xnoremap <C-W>i <C-W>l|
 " }}}
 " Change forward {{{
-
+  nnoremap j s|xnoremap j s|onoremap j s|
+  nnoremap J S|xnoremap J S|onoremap J S|
 " }}}
