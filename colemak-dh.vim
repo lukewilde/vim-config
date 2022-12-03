@@ -50,9 +50,9 @@
     nnoremap gV gP|xnoremap gV gP|
 " }}}
 " Undo/redo {{{
-    nnoremap z u|xnoremap z :<C-U>undo<CR>|
-    nnoremap gz U|xnoremap gz :<C-U>undo<CR>|
-    nnoremap Z <C-R>|xnoremap Z :<C-U>redo<CR>|
+    nnoremap b u|xnoremap b :<C-U>undo<CR>|
+    nnoremap gb U|xnoremap gb :<C-U>undo<CR>|
+    nnoremap B <C-R>|xnoremap B :<C-U>redo<CR>|
 " }}}
 " Visual mode {{{
     nnoremap a v|xnoremap a v|
@@ -68,8 +68,8 @@
     " f/F are unchanged
     nnoremap p t|xnoremap p t|onoremap p t|
     nnoremap P T|xnoremap P T|onoremap P T|
-    nnoremap b ;|xnoremap b ;|onoremap b ;|
-    nnoremap B ,|xnoremap B ,|onoremap B ,|
+"    nnoremap b ;|xnoremap b ;|onoremap b ;|
+"    nnoremap B ,|xnoremap B ,|onoremap B ,|
     nnoremap k n|xnoremap k n|onoremap k n|
     nnoremap K N|xnoremap K N|onoremap K N|
 " }}}
